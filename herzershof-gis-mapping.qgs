@@ -8,10 +8,10 @@
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="heho_teich20190109150734633" source="/home/hendrik/MEGA/UnaVision/Architektur und Bauplanung/GIS/src/heho_teich.shp" name="heho_teich">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="heho_bäume20190109203547024" source="/home/hendrik/MEGA/UnaVision/Architektur und Bauplanung/GIS/src/heho_bäume.shp" name="heho_waldgarten">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="heho_bäume20190109203547024" source="/home/hendrik/MEGA/UnaVision/Architektur und Bauplanung/GIS/src/heho_bäume.shp" name="heho_waldgarten">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="heho_wege20190109152046180" source="/home/hendrik/MEGA/UnaVision/Architektur und Bauplanung/GIS/src/heho_wege.shp" name="heho_wege">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="heho_wege20190109152046180" source="/home/hendrik/MEGA/UnaVision/Architektur und Bauplanung/GIS/src/heho_wege.shp" name="heho_wege">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="heho_grubber_Kopie20190109151609422" source="/home/hendrik/MEGA/UnaVision/Architektur und Bauplanung/GIS/src/heho_garten.shp" name="heho_garten">
@@ -49,67 +49,34 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1620350.69159649917855859</xmin>
-      <ymin>6898063.35607875138521194</ymin>
-      <xmax>1620489.83494180301204324</xmax>
-      <ymax>6898259.9399016872048378</ymax>
+      <xmin>876439.69234682840760797</xmin>
+      <ymin>5835390.79769998416304588</ymin>
+      <xmax>876958.91164656390901655</xmax>
+      <ymax>5835664.49840154498815536</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-        <srsid>3857</srsid>
-        <srid>3857</srid>
-        <authid>EPSG:3857</authid>
-        <description>WGS 84 / Pseudo Mercator</description>
-        <projectionacronym>merc</projectionacronym>
+        <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3116</srsid>
+        <srid>32632</srid>
+        <authid>EPSG:32632</authid>
+        <description>WGS 84 / UTM zone 32N</description>
+        <projectionacronym>utm</projectionacronym>
         <ellipsoidacronym>WGS84</ellipsoidacronym>
         <geographicflag>false</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20190108161747331"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="grundstück_Kopie20190109020443788"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="QGIS20190108161304913"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109012642117"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_wege20190109152046180"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109025252251"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_ortofoto_1_ref20190109023025253"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_020190109010040085"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_gebäude20190109033643347"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_teich20190109150734633"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20190108160730009"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109023742842"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_geländehöhe20190109122053127"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109013908514"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109025758930"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_020190109010539403"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_grundstück20190109030737032"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109030121887"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109030205990"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_bäume20190109203547024"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_versigelte_fläche20190109032722829"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109025529568"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_ortofoto_1_ref20190109023440361"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109023845964"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109024745959"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109015217444"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109030026315"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_grubber20190109171448624"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109015743174"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_grubber_Kopie20190109151609422"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="grundstueck_herzershof_Kopie20190109015922281"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109024410180"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20190108161609539"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109024052914"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20190108160621811"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109030400063"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109025043201"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_0_ref20190109015135404"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_garten20190109150037289"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_liegenschaft_020190109010448623"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_grubber_Kopie20190109151609422"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_grundstück20190109030737032"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20190108160730009"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_grubber20190109171448624"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_gebäude20190109033643347"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_teich20190109150734633"/>
+      <layer_coordinate_transform destAuthId="EPSG:32632" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="heho_versigelte_fläche20190109032722829"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -135,14 +102,14 @@
         <legendlayerfile isInOverview="0" layerid="heho_teich20190109150734633" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="heho_waldgarten" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="heho_waldgarten" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="heho_bäume20190109203547024" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="heho_bäume20190109203547024" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="heho_wege" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="heho_wege" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="heho_wege20190109152046180" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="heho_wege20190109152046180" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="heho_garten" showFeatureCount="0">
@@ -3926,78 +3893,54 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
   </projectlayers>
   <properties>
-    <Measurement>
-      <DistanceUnits type="QString"></DistanceUnits>
-      <AreaUnits type="QString"></AreaUnits>
-    </Measurement>
-    <Grid>
-      <AnnotationFrameDistance type="double">0</AnnotationFrameDistance>
-      <IntervalX type="double">10</IntervalX>
-      <IntervalY type="double">10</IntervalY>
-      <AnnotationFont type="QString">Noto Sans,16,-1,5,50,0,0,0,0,0</AnnotationFont>
-      <AnnotationPrecision type="int">0</AnnotationPrecision>
-      <MarkerSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
- &lt;layer pass="0" class="SimpleMarker" locked="0">
-  &lt;prop k="angle" v="0"/>
-  &lt;prop k="color" v="255,0,0,255"/>
-  &lt;prop k="horizontal_anchor_point" v="1"/>
-  &lt;prop k="joinstyle" v="bevel"/>
-  &lt;prop k="name" v="cross"/>
-  &lt;prop k="offset" v="0,0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="outline_color" v="0,0,0,255"/>
-  &lt;prop k="outline_style" v="solid"/>
-  &lt;prop k="outline_width" v="0"/>
-  &lt;prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="outline_width_unit" v="MM"/>
-  &lt;prop k="scale_method" v="diameter"/>
-  &lt;prop k="size" v="3"/>
-  &lt;prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="size_unit" v="MM"/>
-  &lt;prop k="vertical_anchor_point" v="1"/>
- &lt;/layer>
-&lt;/symbol>
-</MarkerSymbol>
-      <Enabled type="bool">false</Enabled>
-      <AnnotationDirection type="int">0</AnnotationDirection>
-      <LineSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="line" name="line symbol">
- &lt;layer pass="0" class="SimpleLine" locked="0">
-  &lt;prop k="capstyle" v="square"/>
-  &lt;prop k="customdash" v="5;2"/>
-  &lt;prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="customdash_unit" v="MM"/>
-  &lt;prop k="draw_inside_polygon" v="0"/>
-  &lt;prop k="joinstyle" v="bevel"/>
-  &lt;prop k="line_color" v="0,0,0,255"/>
-  &lt;prop k="line_style" v="solid"/>
-  &lt;prop k="line_width" v="0.26"/>
-  &lt;prop k="line_width_unit" v="MM"/>
-  &lt;prop k="offset" v="0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="use_custom_dash" v="0"/>
-  &lt;prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
- &lt;/layer>
-&lt;/symbol>
-</LineSymbol>
-      <Placement type="int">1</Placement>
-      <MapUnits type="int">0</MapUnits>
-      <Style type="int">1</Style>
-      <OffsetX type="double">0</OffsetX>
-      <ShowAnnotation type="bool">false</ShowAnnotation>
-      <OffsetY type="double">0</OffsetY>
-      <MarginUnit type="QString">MM</MarginUnit>
-    </Grid>
-    <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-      <ProjectCRSID type="int">3452</ProjectCRSID>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <dxf>
+      <lastDxfCrs type="QString">3857</lastDxfCrs>
+      <lastSymbologyExportScale type="double">0</lastSymbologyExportScale>
+      <lastVisibilityPreset type="QString"></lastVisibilityPreset>
+      <lastDxfSymbologyMode type="int">2</lastDxfSymbologyMode>
+      <lastDxfLayerTitleAsName type="bool">true</lastDxfLayerTitleAsName>
+      <lastDxfMapRectangle type="bool">false</lastDxfMapRectangle>
+      <lastDxfEncoding type="QString">CP1252</lastDxfEncoding>
+    </dxf>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
     <Gui>
       <SelectionColorBluePart type="int">0</SelectionColorBluePart>
       <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -4070,22 +4013,97 @@ def my_form_open(dialog, layer, feature):
         <value>0.000000</value>
       </LayerSnappingToleranceList>
     </Digitizing>
-    <PositionPrecision>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-    </PositionPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Grid>
+      <AnnotationFrameDistance type="double">0</AnnotationFrameDistance>
+      <IntervalX type="double">10</IntervalX>
+      <IntervalY type="double">10</IntervalY>
+      <AnnotationFont type="QString">Noto Sans,16,-1,5,50,0,0,0,0,0</AnnotationFont>
+      <AnnotationPrecision type="int">0</AnnotationPrecision>
+      <MarkerSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+ &lt;layer pass="0" class="SimpleMarker" locked="0">
+  &lt;prop k="angle" v="0"/>
+  &lt;prop k="color" v="255,0,0,255"/>
+  &lt;prop k="horizontal_anchor_point" v="1"/>
+  &lt;prop k="joinstyle" v="bevel"/>
+  &lt;prop k="name" v="cross"/>
+  &lt;prop k="offset" v="0,0"/>
+  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="offset_unit" v="MM"/>
+  &lt;prop k="outline_color" v="0,0,0,255"/>
+  &lt;prop k="outline_style" v="solid"/>
+  &lt;prop k="outline_width" v="0"/>
+  &lt;prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="outline_width_unit" v="MM"/>
+  &lt;prop k="scale_method" v="diameter"/>
+  &lt;prop k="size" v="3"/>
+  &lt;prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="size_unit" v="MM"/>
+  &lt;prop k="vertical_anchor_point" v="1"/>
+ &lt;/layer>
+&lt;/symbol>
+</MarkerSymbol>
+      <Enabled type="bool">false</Enabled>
+      <AnnotationDirection type="int">0</AnnotationDirection>
+      <LineSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="line" name="line symbol">
+ &lt;layer pass="0" class="SimpleLine" locked="0">
+  &lt;prop k="capstyle" v="square"/>
+  &lt;prop k="customdash" v="5;2"/>
+  &lt;prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="customdash_unit" v="MM"/>
+  &lt;prop k="draw_inside_polygon" v="0"/>
+  &lt;prop k="joinstyle" v="bevel"/>
+  &lt;prop k="line_color" v="0,0,0,255"/>
+  &lt;prop k="line_style" v="solid"/>
+  &lt;prop k="line_width" v="0.26"/>
+  &lt;prop k="line_width_unit" v="MM"/>
+  &lt;prop k="offset" v="0"/>
+  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="offset_unit" v="MM"/>
+  &lt;prop k="use_custom_dash" v="0"/>
+  &lt;prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+ &lt;/layer>
+&lt;/symbol>
+</LineSymbol>
+      <Placement type="int">1</Placement>
+      <MapUnits type="int">0</MapUnits>
+      <Style type="int">1</Style>
+      <OffsetX type="double">0</OffsetX>
+      <ShowAnnotation type="bool">false</ShowAnnotation>
+      <OffsetY type="double">0</OffsetY>
+      <MarginUnit type="QString">MM</MarginUnit>
+    </Grid>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WCSLayers type="QStringList"/>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
-    <dxf>
-      <lastDxfCrs type="QString">3857</lastDxfCrs>
-      <lastSymbologyExportScale type="double">0</lastSymbologyExportScale>
-      <lastVisibilityPreset type="QString"></lastVisibilityPreset>
-      <lastDxfSymbologyMode type="int">2</lastDxfSymbologyMode>
-      <lastDxfLayerTitleAsName type="bool">true</lastDxfLayerTitleAsName>
-      <lastDxfMapRectangle type="bool">false</lastDxfMapRectangle>
-      <lastDxfEncoding type="QString">CP1252</lastDxfEncoding>
-    </dxf>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:32632</ProjectCrs>
+      <ProjectCRSID type="int">3116</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMSUrl type="QString"></WMSUrl>
   </properties>
   <visibility-presets/>
 </qgis>
